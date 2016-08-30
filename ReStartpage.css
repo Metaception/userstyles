@@ -1,0 +1,36 @@
+@-moz-document domain("startpage.com")
+{
+	#by_time {
+		padding-left: 42px !important;
+		margin-top: -130px !important;
+	}
+
+	#by_time li a {
+		font-size: 1.2em !important;
+	}
+
+	.result {
+		margin-bottom: 20px !important;
+	}
+
+	.result h3 a {
+		color: #382FAA !important;
+	}
+
+	#results .result {
+		width: 1000px !important;
+	}
+
+	#results_header {
+		margin-top: -82px !important;
+		margin-bottom: -8px !important;
+	}
+
+	a[ id ^= "title_" ] {
+		font-size: 1.2em !important;
+		text-decoration: none !important;
+	}
+	.desc {
+		color: #7D7D7D !important;
+	}
+}

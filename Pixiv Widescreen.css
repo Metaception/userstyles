@@ -1,0 +1,57 @@
+@-moz-document url-prefix(http://www.pixiv.net/ranking.php)
+{
+	.header {
+		display: none !important;
+	}
+
+	.navigation-list {
+		margin-left: 10% !important;
+	}
+
+	#wrapper {
+		width: 100% !important;
+	}
+
+	div[class*='layout-'] {
+		width: 100% !important;
+	}
+}
+
+@-moz-document url-prefix("http://www.pixiv.net/member_illust.php?mode=medium")
+{
+	.header {
+		display: none !important;
+	}
+
+	#wrapper {
+		margin: 1% !important;
+	}
+
+	.layout-a {
+		width: 185% !important;
+	}
+
+	.layout-column-2 {
+		width: 89% !important;
+	}
+
+	.works_display {
+		width: 100% !important;
+	}
+
+	.works_display > a > img {
+		width: auto !important;
+		height: auto !important;
+		max-width: 100% !important;
+		max-height: 900px !important;
+	}
+
+	/*.original-image {
+		width: auto !important;
+		height: auto !important;
+		max-width: 1440px !important;
+		max-height: 1200px !important;
+		margin-top: 10px !important;
+		margin-bottom: 4px !important;
+	}*/
+}

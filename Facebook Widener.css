@@ -1,0 +1,14 @@
+@-moz-document domain("facebook.com") {
+
+	#mainContainer {
+		width: 110% !important;
+	}
+
+	.hasLeftCol .homeWiderContent div#contentArea {
+		width: 96.5% !important;
+	}
+
+	.UFIContainer {
+		width: 96.5%;
+	}
+}

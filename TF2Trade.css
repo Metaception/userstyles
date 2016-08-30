@@ -1,0 +1,40 @@
+@-moz-document domain("bazaar.tf")
+{
+	.col-md-10 {
+		width: 100% !important;
+	}
+
+	.arrow {
+		width: 27% !important;
+	}
+}
+
+@-moz-document domain("tf2outpost.com")
+{
+	#main #modules {
+		float: none !important;
+		margin-left: auto !important;
+		margin-right: auto !important;
+		width: 1000px !important;
+	}
+
+	.item_selector .contents {
+		width: 984px !important;
+	}
+
+	.post_data {
+		width: 914px !important;
+	}
+
+	.nested .post_data {
+		width: 848px !important;
+	}
+
+	.reply input {
+		width: 848px !important;
+	}
+
+	.icon_arrow {
+		width: 240px !important;
+	}
+}

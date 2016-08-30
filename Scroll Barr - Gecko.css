@@ -1,0 +1,58 @@
+/* AGENT_SHEET */
+@-moz-document url-prefix(http), url-prefix(ftp), url-prefix(file), url-prefix(about) {
+
+	scrollbar {
+		-moz-appearance: none !important;
+		background: none transparent !important;
+	}
+
+	scrollbar scrollbarbutton, scrollbar gripper {
+		visibility: collapse !important;
+	}
+
+	scrollbar[orient="vertical"] {
+		-moz-margin-start: -5px !important;
+		width: 5px !important;
+	}
+
+	scrollbar[orient="horizontal"] {
+		margin-top: -5px !important;
+		height: 5px !important;
+	}
+
+	scrollbar thumb {
+		-moz-appearance: none !important;
+		border: 2px solid #4B4B4B !important;
+		border-radius: 2px !important;
+		background: #7D7D7D !important;
+	}
+
+	scrollbar thumb[orient="vertical"] {
+		border-top: 6px solid #4B4B4B !important;
+		border-bottom: 6px solid #4B4B4B !important;
+	}
+
+	scrollbar thumb[orient="horizontal"] { 
+		border-left: 6px solid #4B4B4B !important;
+		border-right: 6px solid #4B4B4B !important;
+	}
+
+	scrollbar thumb:hover {
+		background: #969696 !important;
+		border: 2px solid #424242 !important;
+	}
+
+	scrollbar thumb[orient="vertical"]:hover {
+		border-top: 6px solid #424242 !important;
+		border-bottom: 6px solid #424242 !important;
+	}
+
+	scrollbar thumb[orient="horizontal"]:hover {
+		border-left: 6px solid #424242 !important;
+		border-right: 6px solid #424242 !important;
+	}
+
+	scrollbar thumb:active {
+		background: #4BB5FF !important;
+	}
+}
